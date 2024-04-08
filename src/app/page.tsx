@@ -1,11 +1,10 @@
-import Image from "next/image";
+import Header from "./components/header";
+
 
 export default function Home() {
   return (
     <main>
-      <h1 className="text-4xl font-bold underline mt-7 mx-11">
-      Portfolio
-    </h1>
+    <Header/>
     </main>
   );
 }
