@@ -11,7 +11,6 @@ export default function Header() {
       alt="Picture of portfolio text"
     />
     </div>
-    
     </main>
   );
 }
