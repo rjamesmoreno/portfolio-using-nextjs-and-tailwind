@@ -12,7 +12,7 @@ import git_image from "/public/git.png";
 
 export default function Tools() {
     return(
-        <main className="flex min-h-screen flex-col mx-[12rem]">
+        <main className="flex flex-col mx-[12rem]">
             <div className="grid grid-cols-5 px-[12rem]">
                 <div><Image
                 src={python_image}
