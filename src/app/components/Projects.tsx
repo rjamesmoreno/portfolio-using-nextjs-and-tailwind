@@ -1,13 +1,3 @@
-import Image from "next/image";
-import { Card, CardContent } from "@/components/ui/card";
-import {
-  Carousel,
-  CarouselContent,
-  CarouselItem,
-  CarouselNext,
-  CarouselPrevious,
-} from "@/components/ui/carousel";
-
 import utilitycrate1 from "/public/utilitycrate1.png";
 import utilitycrate2 from "/public/utilitycrate2.png";
 import utilitycrate3 from "/public/utilitycrate3.png";
