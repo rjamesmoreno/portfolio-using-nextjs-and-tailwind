@@ -17,8 +17,8 @@ type ImageCarouselProps = {
 export default function ImageCarousel({imageList, groupType} : ImageCarouselProps) {
     return (<Carousel className= {groupType==='utilitycrate' ? "w-[20vw] mx-auto" : "w-[50vw] mx-auto"}>
     <CarouselContent>
-    {imageList.map((image) => {
-        return (<CarouselItem>
+    {imageList.map((image,index) => {
+        return (<CarouselItem key={index}>
             <div className="p-1">
               <Card>
                 <CardContent className="flex items-center justify-center p-6">
